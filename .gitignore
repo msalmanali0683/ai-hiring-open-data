@@ -1,0 +1,17 @@
+# data and outputs are never committed
+*.csv
+*.parquet
+*.xlsx
+*.zip
+*.png
+*.pdf
+output*/
+data/
+# secrets
+kaggle.json
+access_token
+.env
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
